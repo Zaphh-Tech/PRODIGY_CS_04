@@ -7,6 +7,12 @@ import os
 import sys
 from datetime import datetime
 
+try:
+    from brand import boot
+except Exception:
+    def boot(*a, **k):
+        pass
+
 LOG = "keystrokes.log"
 
 MSG = """
@@ -79,6 +85,7 @@ def main(argv=None):
     a = get_args(argv)
     path = os.path.abspath(a.output)
 
+    boot("Keylogger", "CS-04", "local keystroke logger - consent required")
     ask(path)
 
     try:
