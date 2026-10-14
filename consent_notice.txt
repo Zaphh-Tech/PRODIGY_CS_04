@@ -1,0 +1,17 @@
+Please only use this on your own computer. Logging someone else's keys without permission is illegal.
+
+This is just my school task (Prodigy Task 4) to learn how keyboard listeners work.
+It only writes to a file on the same computer. No internet, no hiding, no autostart.
+
+Allowed:
+- your own laptop / VM for practice
+- only when everyone typing knows about it
+
+Not allowed:
+- logging other people, passwords, chats
+- putting it on someone else's machine
+- sending the log anywhere
+
+The program asks you to type YES every time, or it quits.
+Press ESC to stop. Delete the log after: rm keystrokes.log
+Don't upload or share log files.
